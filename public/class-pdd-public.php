@@ -1,26 +1,14 @@
 <?php
 
 /**
- * The public-facing functionality of the plugin.
- *
- * @link       http://example.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
- */
-
-/**
  * The public-facing functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the public-facing stylesheet and JavaScript.
- *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
- * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Public {
+class Productiverse_Dynamic_Display_Public {
 
 	/**
 	 * The ID of this plugin.
