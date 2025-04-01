@@ -1,19 +1,16 @@
 <?php
 
 /**
- * @link       http://example.com
  * @since      1.0.0
  * 
  * The admin-specific functionality of the plugin.
  *
- * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
+ * Defines the plugin name, version, and enqueue the admin-specific 
+ * stylesheet and JavaScript.
  */
 class Productiverse_Dynamic_Display_Admin {
 
 	/**
-	 * The ID of this plugin.
-	 *
 	 * @since    1.0.0
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
@@ -21,8 +18,6 @@ class Productiverse_Dynamic_Display_Admin {
 	private $plugin_name;
 
 	/**
-	 * The version of this plugin.
-	 *
 	 * @since    1.0.0
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
@@ -62,7 +57,7 @@ class Productiverse_Dynamic_Display_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/plugin-name-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, PDD_ADMIN_STYLE_URL . 'plugin-name-admin.css', array(), $this->version, 'all' );
 
 	}
 
@@ -85,7 +80,7 @@ class Productiverse_Dynamic_Display_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/plugin-name-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, PDD_ADMIN_STYLE_URL . 'plugin-name-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
 
