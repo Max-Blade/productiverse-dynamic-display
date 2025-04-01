@@ -5,7 +5,7 @@
  *
  * The public-facing functionality of the plugin.
  *
- * Defines the plugin name, version, and two examples hooks for how to
+ * Defines the plugin name, version, and
  * enqueue the public-facing stylesheet and JavaScript.
  */
 class Productiverse_Dynamic_Display_Public {
@@ -61,7 +61,7 @@ class Productiverse_Dynamic_Display_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/plugin-name-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, PDD_PUBLIC_STYLE_URL . 'plugin-name-public.css', array(), $this->version, 'all' );
 
 	}
 
@@ -84,7 +84,7 @@ class Productiverse_Dynamic_Display_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/plugin-name-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, PDD_PUBLIC_SCRIPT_URL . 'plugin-name-public.js', array( 'jquery' ), $this->version, false );
 
 	}
 

@@ -16,3 +16,5 @@ define('PDD_ADMIN_STYLE_URL', plugin_dir_url( __FILE__ ) . 'admin/css/');
 define('PDD_ADMIN_SCRIPT_URL', plugin_dir_url( __FILE__ ) . 'admin/js/');
 
 define('PDD_PUBLIC', PDD_DIR_PATH . 'public/');
+define('PDD_PUBLIC_STYLE_URL', plugin_dir_url( __FILE__ ) . 'public/css/');
+define('PDD_PUBLIC_SCRIPT_URL', plugin_dir_url( __FILE__ ) . 'public/js/');
