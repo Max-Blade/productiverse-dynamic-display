@@ -1,0 +1,26 @@
+{
+  "name": "productiverse-dynamic-display",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx wp-scripts start",
+    "build": "npx wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max-Blade/productiverse-dynamic-display.git"
+  },
+  "keywords": [],
+  "author": "Samuel Ramos",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/Max-Blade/productiverse-dynamic-display/issues"
+  },
+  "homepage": "https://github.com/Max-Blade/productiverse-dynamic-display#readme",
+  "description": "Productiverse Dynamic Display is the ultimate plugin to take your e-commerce store customization to the next level.",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.1",
+    "@wordpress/scripts": "^30.14.1",
+    "tailwindcss": "^4.1.1"
+  }
+}
