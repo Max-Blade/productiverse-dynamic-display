@@ -90,13 +90,13 @@ class Productiverse_Dynamic_Display {
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once PDD_ADMIN . 'class-pdd-admin.php';
+		require_once PDD_ADMIN_PATH . 'class-pdd-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once PDD_PUBLIC . 'class-pdd-public.php';
+		require_once PDD_PUBLIC_PATH . 'class-pdd-public.php';
 
 		$this->loader = new Productiverse_Dynamic_Display_Loader();
 	}
